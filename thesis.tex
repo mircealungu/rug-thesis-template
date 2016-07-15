@@ -1,0 +1,82 @@
+ \documentclass[oneside,a4paper,12pt]{book}
+%\pagestyle{headings}
+\frontmatter
+\input{preamble}
+
+% A B S T R A C T
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\chapter*{\centering Abstract}
+\begin{quotation}
+\noindent 
+
+In less than one page, you have to briefly provide the following information:
+
+\begin{itemize}
+	\item What is the PROBLEM you are trying to solve? Or what is the research QUESTION you are trying to answer?
+	\item Why is this problem/question worth solving/asking? Who would care?
+	\item How have other people in the past tried to solve/answer it?
+	\item What is your NEW approach to solving/answering this problem? Or what improvement are you making on an existing solution?
+	\item How do you prove that the solution you came up with is a GOOD solution?
+	\item How do you demonstrate that your solution works?
+
+\end{itemize}
+
+
+
+
+
+
+\end{quotation}
+\clearpage
+
+
+% C O N T E N T S 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\tableofcontents
+
+\mainmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% NEW CHAPTER %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introduction}
+\label{cha:introduction}
+a summary of the problem you are trying to solve and your approach.
+
+
+
+
+\chapter {Related Work}
+describe the field in general and how others have tried to solve this problem.
+
+
+\chapter{The Problem Statement}
+describe in detail the problem you are trying to solve.
+
+\chapter {The Approach}
+describe your approach to solving the problem. Describe any potential weaknesses of your approach.
+
+\chapter {The Implementation}
+describe how you implemented your approach. If it is a software system give diagrams, relevant algorithms etc.
+
+packages that you can look at for code formatting: 
+
+- http://mirror.unl.edu/ctan/macros/latex/contrib/minted/minted.pdf
+- https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+
+
+\chapter {The Evaluation}
+describe how you evaluated to show that your approach was successful. You may need a methods section, a results section and a conclusion section.
+
+
+\chapter {Conclusion and Future Work}
+summarize your thesis again as in the introduction. Describe how your evaluation revealed that your system is successful. Describe future work in this area.
+
+
+
+%END Doc
+%-------------------------------------------------------
+
+\bibliography{thesis}
+\bibliographystyle{plain}
+
+\end{document}
